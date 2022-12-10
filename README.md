@@ -2,59 +2,98 @@
 # YipFit
 
 A Fitness App that curates a workout session to any User based on their immediate fitness goals! 
-
-### Who’s it for?
-
 While the target audience is between the 15-55 years age demographic it should also entice fitness enthusiasts of any age.
 
-### Main Features
-Gamelib as a package will need to be imported before we approach any of the following requirements
+# YipFit Folder Structure
+The following are the lists of folders where we maintain
+our project. You can also see the
+purpose of each particular folder.
+The project folder is located inside Assets/PlayFit/
 
-- #### The Aesthetic and Scene design 
+## All Parent Folders
 
-    Intro: Storyboard a 3~5s opener revealing the app logo. This will be the hyped animation intro that should successfully draw anyone in.
+- ### Animations
+        This folder includes all the animations relating to the UI of the app.
+
+- ### Character
+        The folder includes the 3D model file of the character which is being used inside the project.
+        There are animations of the characters within this folder which is used to create the animators of the character
+        Also, it includes the material of the character which consists the skin, clothes and other accessories.
     
-    Landing page (main): translucent Ui for Start, Settings, Accolades, Exit. There will be a minimal palette Each button will have its layout. A Live Flipboard tracker of overall local/global Calorie burned (TBD). 
+- ### Fonts
+        All the fonts files which are currently being used in the project
+
+- ### Material
+        All the other materials which are used for the environment assets
     
-    Game screen (main): Active from start to end of a session we will see on screen the following as display Ui -  a current workout timer, the name of the current workout, overall timer for the session duration and number of actions per workout (actions performed will be shown after that particular workout duration).
+- ### Models
+        All the models relating to the environment assets
+
+- ### Resources
+        It includes the .bundle files which are used as a Downloadable Content for audio
+
+- ### Scenes
+        It includes the main scenes where the project will be executed and rendered
     
-    Results screen (main): Fitness report card screen that conveys the players’ workout summary stats, calories burned, total time and fitness points  
-    
-    Feedback screen (TBD): a quick survey questionnaire to get the user to rate his session. A different question will appear each time so the user will not be bor could also be used to revise the algorithm to make the user  
+- ### Scripts
+        All the namespaces and classes are stored here
 
-- #### Character design 
+- ### SFX
+        All kinds of sound effects and dialgoues for the project are stored here.
 
-    The 3D models will be both male and female humanoid body types. There will not be any facial rigs for the sake of simplicity. However, the attire of the models will follow the aesthetics of fitness trainers, gym instructors and showcase traits from familiar coach personalities (Peloton, Insanity, P-90X) through specific animation actions (TBD).
+- ### Sprites
+        All the images relating to UI and 2D content are stored in here.
 
-- #### The Action Library 
+- ### Textures
+        All the textures relating to the environment assets
 
-    A complete list of 10-15 workout actions including variations with accurate stats. The library of animations can then be derived from this list. 
-    
-    Any peripheral (non-workout) actions can also be created such as welcome gestures for the landing page, workout start and cooldowns, breaktime poses and workout completion poses.
-    
-    Besides the main core animations, we can also aim to add some quirkiness to the character models by having them mimic the movements of popular trainers or famous coaches. Users may enjoy the familiarity of recognizable personalities. (TBD) 
+- ### UI
+        Other miscellanous types of UI animations are stored here
 
-- #### Algorithm Managers
 
-    Create a Configurations manager to handle the users’ data inputs such as time, intensity and body focus. Its macro function is to pair with other entities such as a Character manager to handle which animations are selected, a UI manager from the start to the end of a workout session, a Sound Manager, A TTS manager that manages the feedback dialogues during and after the session completion.
+## All the Namespaces and their Classes
 
-- #### Music, Dialogues & SFX 
+- ### CharacterManager
+        - CharacterAnimationEventHandler.cs contains the Key Events functions for the character animation. Events will be triggered when a certain frame/time of the animation is being played.
 
-    Music along with Feedback dialogues will be another important pillar that will enhance if not compliment the fitness experience. 
-    
-    There will be a unique tracklist curated for various segments throughout the app’s navigation. The Intro, the main menu navigation, a tracklist of uptempo beats specifically for Low, Moderate and High tempo workouts. 
-    
-    There will be a common sfx library for sounds for various button clicks, milestone updates, page navigations and screen transitions, workout round start and end segments, breaktime solos, countdown timer riffs. 
-    
-    Completing an entire session, will bring up a workout summary page and will follow up with a short feedback survey to the user before exiting. Transition between the screen pages will have a creative sfx flow in with the music.  
-    
-    All the Feedback dialogues will be carefully curated to guide the user throughout their workout session, constantly encouraging and motivating them before, during and after completing every workout. To keep things interesting we could use funny and quirky TTS dialogues from the aforementioned fitness personalities. Let’s not make this just another fitness app. 
+        - CharacterAnimationHandler.cs stores the meta list information of the animations, it include other functionality also to set the speed of the animation. The requested animation is sent from this meta list.
 
-### Extra Features
+        - CharacterManager.cs includes the funationality like to Apply Idle animation, Apply the animation override, Display the character and Hide the character
 
-- Personalized workouts: Allow users to create their own preferred workouts
-- Video links: Allow users to also view the workouts available on the interweb
-- Mat gestures (TBD): UX component that allows users to press trigger points on the mat
+- ### CurriculumGeneration
+
+        - The curriculum generation generates the workout on run-time basis depending upon the user selection on time and intensity.
+        The following scripts are being used for generation the workout curriculum:
+        -> ActionMappedTargetAreaAndIntensity.cs This table will define the % wise distribution among the 3 workout sections, depending upon the intensity selected.
+        -> CurriculumGenerator.cs this script generates the workout based on the user input
+        -> RunTimePredefinedWorkout.cs this script holds the information of workout created by CurriculumGenerator in metadata format.
+        -> SectionAndDuration.cs
+        -> WorkoutTimeAndIntensity.cs
+
+- ### Database
+
+        - BackendDataHandler.cs handles the user data information and also handles the information of the workout taken by the user. All the fetching and storing of the data is handled by this script. The database used is Firebase Realtime Database
+
+- ### DLCModule
+        - This component is used to manage the audio as a downloadable content. When the app launches it fetches all the audio content from storage server using FTP request and then store it to local cache storage of device and on re-launch of the app the content will be fetched from the cache storage.
+
+- ### GameInitaliser
+        - Intializes the game with its id and game type
+
+- ### UIManager
+        - AudioClipHolder.cs holds the audio data in meta format when the DLCModule has downloaded the content successfully.
+        - CheckPointManager.cs manages the trigger point for the workout, i.e. when the break, motivation audio, change of background music and engaging audio will be invoked.
+        - SoundManager.cs select the sounds from the AudioClipHolder depending on the which section of the workout is being played.
+        - UIManager.cs manages all the inteactable UI when users gives the input or clicks/touches.
+
+# Store Link
+
+[Play Store](https://play.google.com/store/apps/details?id=com.yipli.yipfit)
+
+[App Store](https://apps.apple.com/in/app/yipfit/id1621274138)
+
+
+
 
 
 
