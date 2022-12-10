@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 2017337751
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9dc751f961245377e559ae240dc9db98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/External_audio/Action_name_sound/M_LR_ID.mp3
+- Assets/External_audio/Action_name_sound/M_PK_ID.mp3
+- Assets/External_audio/Action_name_sound/M_SQJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_FL_ID.mp3
+- Assets/External_audio/Action_name_sound/M_SLHS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_JP_ID.mp3
+- Assets/External_audio/Action_name_sound/M_COJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_LC_ID.mp3
+- Assets/External_audio/Action_name_sound/M_QS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_SJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_WW_ID.mp3
+- Assets/External_audio/Action_name_sound/M_OLH_ID.mp3
+- Assets/External_audio/Action_name_sound/M_STARJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_HJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_SK_ID.mp3
+- Assets/External_audio/Action_name_sound/M_CAS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_BR_ID.mp3
+- Assets/External_audio/Action_name_sound/M_KRL_ID.mp3
+- Assets/External_audio/Action_name_sound/M_JJS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_LSJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_BL_ID.mp3
+- Assets/External_audio/Action_name_sound/M_SL_ID.mp3
+- Assets/External_audio/Action_name_sound/M_RL_ID.mp3
+- Assets/External_audio/Action_name_sound/M_180S_ID.mp3
+- Assets/External_audio/Action_name_sound/M_HFS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_WS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_LJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_SQK_ID.mp3
+- Assets/External_audio/Action_name_sound/M_BAR_ID.mp3
+- Assets/External_audio/Action_name_sound/M_CL_ID.mp3
+- Assets/External_audio/Action_name_sound/M_DJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_MC_ID.mp3
+- Assets/External_audio/Action_name_sound/M_HS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_FF_ID.mp3
+- Assets/External_audio/Action_name_sound/M_3LD_ID.mp3
+- Assets/External_audio/Action_name_sound/M_AC_ID.mp3
+- Assets/External_audio/Action_name_sound/M_TS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_180J_ID.mp3
+- Assets/External_audio/Action_name_sound/M_JJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_AP_ID.mp3
+- Assets/External_audio/Action_name_sound/M_HKR_ID.mp3
+- Assets/External_audio/Action_name_sound/M_CP_ID.mp3
+- Assets/External_audio/Action_name_sound/M_LBS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_CJ_ID.mp3
+- Assets/External_audio/Action_name_sound/M_NS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_CCP_ID.mp3
+- Assets/External_audio/Action_name_sound/M_SS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_MP_ID.mp3
+- Assets/External_audio/Action_name_sound/M_STHS_ID.mp3
+- Assets/External_audio/Action_name_sound/M_SR_ID.mp3
+- Assets/External_audio/Action_name_sound/M_MK_ID.mp3
+Dependencies: []

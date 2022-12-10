@@ -1,0 +1,484 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b469ad403e63e47a2692f584655cb5, type: 3}
+  m_Name: CharacterAnimationHandlerForCanvas
+  m_EditorClassIdentifier: 
+  actionAnimations:
+  - actionId: JJ
+    actionName: Jumping Jack
+    actionAvatar: {fileID: 9000000, guid: 195b4d3b087a52b43ba408e83a621e39, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 822390808c5e9d341a59d59c11384330, type: 2}
+    animationSpeed: 1.25
+    clusterId: 206
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: JP
+    actionName: JUMP
+    actionAvatar: {fileID: 9000000, guid: dcb19a4f86a6b5d4ea7c5b715e26400c, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 852dd0ad7c502d44bb23437ff9c504ca, type: 2}
+    animationSpeed: 1.1
+    clusterId: 205
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: 180J
+    actionName: 180 Jump
+    actionAvatar: {fileID: 9000000, guid: 81cccd49d4659f94484aec3716187d0e, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: ef804278e10a6aa45b3d950ea13697f1, type: 2}
+    animationSpeed: 0.7
+    clusterId: 217
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: BR
+    actionName: Burpee
+    actionAvatar: {fileID: 9000000, guid: 8391ac40866fab342a9eb0344d172e08, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 18ac03e3b8f5bbf438b5e29f9417404e, type: 2}
+    animationSpeed: 1
+    clusterId: 226
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: CJ
+    actionName: Chest Jump
+    actionAvatar: {fileID: 9000000, guid: a2ff69b4f90306b42810cd164d8558fd, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 091a60c276bca624bb538627b17ade24, type: 2}
+    animationSpeed: 1
+    clusterId: 214
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: DJ
+    actionName: Diagonal Jump
+    actionAvatar: {fileID: 9000000, guid: c35ad2d7c52e8fa4faf1917ab27956e5, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: eccb40874c633004d9f81eafcab107f7, type: 2}
+    animationSpeed: 1
+    clusterId: 212
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: RUN
+    actionName: RUN
+    actionAvatar: {fileID: 9000000, guid: d4e9bbaaa31e034438d59caa7e8c5d71, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 9d97e4d4112430447bbd10c9c6f03ac3, type: 2}
+    animationSpeed: 1.3
+    clusterId: 202
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: SK
+    actionName: Skier Jack
+    actionAvatar: {fileID: 9000000, guid: efb995efc5e9f31418c795015690932a, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 43ef2bf21b019f4428d31e5346e2c37b, type: 2}
+    animationSpeed: 0.7
+    clusterId: 204
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: 180S
+    actionName: 180 Squat
+    actionAvatar: {fileID: 9000000, guid: 4e2014c7133d756489d814a62ddeb72e, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: ba9f7d2a6f872b24fae6bbaeaf650f67, type: 2}
+    animationSpeed: 1.2
+    clusterId: 220
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: AP
+    actionName: Aeroplane Pose
+    actionAvatar: {fileID: 9000000, guid: 45b09f7eb9c04df4db9c5b79992e31b9, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 9563932b901854a4f9c2938be6d18299, type: 2}
+    animationSpeed: 1
+    clusterId: 231
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: COJ
+    actionName: Cross Over Jack
+    actionAvatar: {fileID: 9000000, guid: 7e459b2a83b1616408db77f1073851dd, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 87362bb8e843da241b9380b7bf52e413, type: 2}
+    animationSpeed: 1.1
+    clusterId: 215
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: CL
+    actionName: Cross Lunge
+    actionAvatar: {fileID: 9000000, guid: 1d591272c93661a4db6c4cc22302cffb, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 77a47aa1cc8d86b4eab40b1043d6ac17, type: 2}
+    animationSpeed: 1
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: FF
+    actionName: Fast Feet
+    actionAvatar: {fileID: 9000000, guid: a0f8a73a13370b44fa8aff742f6b6bf6, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: b9f80f1f29925244294f538c52d83e6a, type: 2}
+    animationSpeed: 1.5
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: STHS
+    actionName: Standing Hamstring Stretch
+    actionAvatar: {fileID: 9000000, guid: fc5cada5444d3fe4fb5e47ba34cbb178, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: edb5a47b676652b48809e939c3ffd58a, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: FL
+    actionName: Forward Lunge
+    actionAvatar: {fileID: 9000000, guid: f5b7cbf70d93b0844a50917f8824bec1, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: cc0aada53714d0f4f84af4162a1df332, type: 2}
+    animationSpeed: 1.35
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: HKR
+    actionName: High Knee Run
+    actionAvatar: {fileID: 9000000, guid: fb2b6325c97cec942bd496e1eb18ee90, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 9c108935baa3a144b8b0e0afd448e2f6, type: 2}
+    animationSpeed: 1.25
+    clusterId: 203
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: SJS
+    actionName: SIDE JUMP SQUAT
+    actionAvatar: {fileID: 9000000, guid: 6cb7d5c9f3907124c8c56118d3bda68b, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 5b636e887ebbff94493532522203bf04, type: 2}
+    animationSpeed: 1.25
+    clusterId: 223
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: SL
+    actionName: SQUAT AND LUNGE
+    actionAvatar: {fileID: 9000000, guid: e5c3d349e72c3564fb6ef70b0a3a00b3, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: ef2969eb4e1f08640acbba52463a4cf3, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: LR
+    actionName: 'Lunges Run '
+    actionAvatar: {fileID: 9000000, guid: 4913ed572573f0c4db15b1903046c1aa, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 869d16190c73c3b44be73cb4f8f5a942, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: HS
+    actionName: Hopscotch
+    actionAvatar: {fileID: 9000000, guid: 0fa940292988c38499d03c60ce2f4141, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: e408ef66d9d15284787b59b00a8dcd55, type: 2}
+    animationSpeed: 1.25
+    clusterId: 209
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: HJ
+    actionName: HAPPY JACK
+    actionAvatar: {fileID: 9000000, guid: e1a8727ff8138d04287fe02fde31fa35, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: fc1451a30b17fba4b8ff2885ecd67fc7, type: 2}
+    animationSpeed: 1.25
+    clusterId: 209
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: OLH
+    actionName: One Leg Hopping
+    actionAvatar: {fileID: 9000000, guid: c9f48e4c91dda744187d319e06ff9790, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: adf2144171370b04192c814de9c93891, type: 2}
+    animationSpeed: 1.2
+    clusterId: 211
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: LJ
+    actionName: LUNGE AND JUMP
+    actionAvatar: {fileID: 9000000, guid: 6fe80b019ac5c1348b79e8096dd510f3, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 0e92f6f7df7fcc5448fa495b0377c88a, type: 2}
+    animationSpeed: 1.1
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: BL
+    actionName: BACKWARD LUNGE
+    actionAvatar: {fileID: 9000000, guid: e7f3dbba0b417f846ab03e56681bee8f, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: b73cd22197442b84686114d4433d8ac2, type: 2}
+    animationSpeed: 1.1
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: KRL
+    actionName: KNEE RAISE LUNGE
+    actionAvatar: {fileID: 9000000, guid: e08105b2d17759c4783079a83ad6c8e1, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 484b857beb4e11245b6518bb46375856, type: 2}
+    animationSpeed: 1.1
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: RL
+    actionName: Running Lunge
+    actionAvatar: {fileID: 9000000, guid: 1ea6593cc9ff148418a1ee06906930f9, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 791d2629595b82e4cb57fc0cb6682830, type: 2}
+    animationSpeed: 1.2
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: SJ
+    actionName: SIDE JUMP
+    actionAvatar: {fileID: 9000000, guid: 979d0422551ba6e44ba1213a4f9a16c4, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: d4a2e62b19e420a449659b8e6a8bc16a, type: 2}
+    animationSpeed: 0.8
+    clusterId: 210
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: CAS
+    actionName: CROSS ARM STRETCH
+    actionAvatar: {fileID: 9000000, guid: a39be62a488b1064eb251751f14e8b39, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: f1ff368a5244c77499989f5d2a9b2f08, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: AC
+    actionName: ARM CIRCLE
+    actionAvatar: {fileID: 9000000, guid: 958b2a9fdaddbc24a82bee51f4991bb5, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 3c6996269db2629468d3496969519727, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: BAR
+    actionName: Bend and reach
+    actionAvatar: {fileID: 9000000, guid: 7b039b3243e77e74fa7776a252d6f881, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: f26756a5b7ff28b4bb2cc07f0b7ff019, type: 2}
+    animationSpeed: 1.2
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: WS
+    actionName: WINDMILL STRETCH
+    actionAvatar: {fileID: 9000000, guid: 4adbd2960a68ca04198f279857d1f66c, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: d98ccd52e34c43d46a37e3f238afc993, type: 2}
+    animationSpeed: 1.2
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: STARJ
+    actionName: Star Jump
+    actionAvatar: {fileID: 9000000, guid: 0635050ff4065b449b0c9712a28f8288, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: bd55ff325cf2c4c4187ada97d4e400de, type: 2}
+    animationSpeed: 1.2
+    clusterId: 213
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: CCP
+    actionName: Cat and cow Pose
+    actionAvatar: {fileID: 9000000, guid: 5b96bf09cdbba59499e41c06d95a4358, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 4456dd38640ee81408a788040383d106, type: 2}
+    animationSpeed: 1.2
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: CP
+    actionName: Child Pose
+    actionAvatar: {fileID: 9000000, guid: 66f00c46f1a5a9a4ab1bf749ac4c81f0, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: c2966ead5192a8a49aaedb838c9d0d78, type: 2}
+    animationSpeed: 1.2
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: LC
+    actionName: LEG CIRCLES
+    actionAvatar: {fileID: 9000000, guid: 617b2da6fedb544419f03fdaec57cd52, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: a674dff3e93626142ae3f02ab19b6173, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: HFS
+    actionName: Hip Flexor Strech
+    actionAvatar: {fileID: 9000000, guid: 59d3635fec9e96a41a6e4fe01fc33ba0, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 7e255303a8f3be1489d457569dc6423f, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: LBS
+    actionName: Lower Back Strech
+    actionAvatar: {fileID: 9000000, guid: e65d4e4abef7e5747954e0670a74502c, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 62ded9829faf7804b86495dc4eed869a, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: NS
+    actionName: Neck Strech
+    actionAvatar: {fileID: 9000000, guid: a7856c87f9c567342a1553a5a712b605, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 31ff040af2459874d8de00b2890267ff, type: 2}
+    animationSpeed: 1.25
+    clusterId: 999
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: TS
+    actionName: TRICEP STRETCH
+    actionAvatar: {fileID: 9000000, guid: 8b676e6f826c9b44db49f0abb702e825, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: bb39508203fabef4994a6130e08873d1, type: 2}
+    animationSpeed: 1.25
+    clusterId: 205
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: QS
+    actionName: QUAD STRETCH
+    actionAvatar: {fileID: 9000000, guid: 1ddb07d9b76182549affcb4677ac0072, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: ea34be5ed560abb48b1825e04e29eeb7, type: 2}
+    animationSpeed: 1.25
+    clusterId: 205
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: SR
+    actionName: Shoulder Roll
+    actionAvatar: {fileID: 9000000, guid: b09376c44cc6d9e4487fad6cac75e38b, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 241747a7c089622489148fb382a30db1, type: 2}
+    animationSpeed: 1.25
+    clusterId: 205
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: SS
+    actionName: Side Stretch
+    actionAvatar: {fileID: 9000000, guid: 1fd9b5201961c6e4eba2d7c8a539da60, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 11c388f40dc1b084db87674ac1b552d7, type: 2}
+    animationSpeed: 1.25
+    clusterId: 205
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: SLHS
+    actionName: SLEEPING HAMSTRING STRETCH
+    actionAvatar: {fileID: 9000000, guid: 98e12f7af051b884cb4cec21e19084c6, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 21007e8afa44c40459cddb3adf76cc89, type: 2}
+    animationSpeed: 1.25
+    clusterId: 205
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: WW
+    actionName: WALK WALK
+    actionAvatar: {fileID: 9000000, guid: 1dbd8df408078ef4abef1a6e782480dc, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 33285708825e6084a80f5143eef8ea89, type: 2}
+    animationSpeed: 1.5
+    clusterId: 205
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: MC
+    actionName: Mountain Climbing
+    actionAvatar: {fileID: 9000000, guid: fc5cada5444d3fe4fb5e47ba34cbb178, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: a6358dc27a7a0e74b86c8908ad7431b8, type: 2}
+    animationSpeed: 1.35
+    clusterId: 219
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: PK
+    actionName: PLANK
+    actionAvatar: {fileID: 9000000, guid: fc5cada5444d3fe4fb5e47ba34cbb178, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 47c154bfb4dd60e45a78830a05947cf5, type: 2}
+    animationSpeed: 1.2
+    clusterId: 205
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: MK
+    actionName: Mule Kick
+    actionAvatar: {fileID: 9000000, guid: fc5cada5444d3fe4fb5e47ba34cbb178, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 8fde6e07d3162f04da34b3452289a93f, type: 2}
+    animationSpeed: 1.25
+    clusterId: 221
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: SQK
+    actionName: Squat and Kick
+    actionAvatar: {fileID: 9000000, guid: 7a42dd44e17c7cc4c9bf1f2143435607, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: a358a07c77bed0048af451f5e6522ce8, type: 2}
+    animationSpeed: 1.2
+    clusterId: 216
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: SQJ
+    actionName: Squat and Jump
+    actionAvatar: {fileID: 9000000, guid: fc5cada5444d3fe4fb5e47ba34cbb178, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 761d8423a0bafb9489031fad16a8913d, type: 2}
+    animationSpeed: 1.25
+    clusterId: 218
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: 'JJS '
+    actionName: JUMPING JACK SQUAT
+    actionAvatar: {fileID: 9000000, guid: 94127a138d6144344988c8ff479fedc1, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: bc7baab3182d56543aff0f940763c8e1, type: 2}
+    animationSpeed: 1.25
+    clusterId: 222
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 1
+    voiceOverClip: {fileID: 0}
+  - actionId: 3LD
+    actionName: 3 LEGGED DOG POSE
+    actionAvatar: {fileID: 9000000, guid: a401d1eb5a5f4c74eb0868fea1d0b58a, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 8a9b61d2f29246e4296fb01f3ebf8a98, type: 2}
+    animationSpeed: 1.2
+    clusterId: 229
+    is90DegreeAngleRequired: 1
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  - actionId: MP
+    actionName: Malasana POSE
+    actionAvatar: {fileID: 9000000, guid: 4927611836956f1478ace835ab9de8ef, type: 3}
+    actionOverrideController: {fileID: 22100000, guid: 0495761df0473544797c3de00781d30a, type: 2}
+    animationSpeed: 1.2
+    clusterId: 227
+    is90DegreeAngleRequired: 0
+    isCoreWorkout: 0
+    voiceOverClip: {fileID: 0}
+  actionMappedTargetAreaAndIntensities: {fileID: 11400000, guid: f50398ab18bda4e4bbdbd663bb710f8c, type: 2}

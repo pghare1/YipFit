@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 4161475532
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3c8bb85a68dedc9163cccd1da138438
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AudioContainer/Motivational_Sound/m_mot_17.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_02.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_18.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_24.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_23.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_34.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_28.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_14.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_26.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_14.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_21.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_31.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_23.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_15.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_11.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_16.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_18.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_07.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_17.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_30.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_16.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_03.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_30.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_20.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_05.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_21.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_26.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_28.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_25.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_19.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_15.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_06.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_25.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_29.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_33.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_10.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_09.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_24.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_22.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_12.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_04.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_34.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_09.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_19.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_27.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_03.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_05.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_08.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_22.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_12.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_01.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_13.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_32.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_31.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_02.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_06.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_20.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_33.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_04.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_32.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_29.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_10.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_07.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_01.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_11.mp3
+- Assets/External_audio/Motivational_Sound/m_mot_27.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_08.mp3
+- Assets/AudioContainer/Motivational_Sound/m_mot_13.mp3
+Dependencies: []

@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255102bde42c31c499acd1fb6aaee308, type: 3}
+  m_Name: ActionMappedTargetAreaAndIntensity_backup
+  m_EditorClassIdentifier: 
+  ActionList:
+  - actionName: Jumping Jack
+    actionId: JJ
+    intensityScale: 4
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: Skier Jack
+    actionId: SK
+    intensityScale: 4
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: Cross over Jack
+    actionId: COJ
+    intensityScale: 5
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: HAPPY JACK
+    actionId: HJ
+    intensityScale: 4
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: Lunges Run
+    actionId: LR
+    intensityScale: 7
+    bodyPart: 1
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 70
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Squat And Lungue
+    actionId: SL
+    intensityScale: 8
+    bodyPart: 1
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: Mountain Climbing
+    actionId: MC
+    intensityScale: 7
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 60
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Plank
+    actionId: PK
+    intensityScale: 4
+    bodyPart: 0
+    targetSection: 2
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 50
+    stretchTime: 50
+  - actionName: Mule Kick
+    actionId: MK
+    intensityScale: 10
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 70
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: One Leg Hopping
+    actionId: OLH
+    intensityScale: 5
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: Burpees
+    actionId: BR
+    intensityScale: 10
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 60
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Jump
+    actionId: JP
+    intensityScale: 4
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: 180 Jump
+    actionId: 180J
+    intensityScale: 7
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Side Jump
+    actionId: SJ
+    intensityScale: 6
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: Star Jump
+    actionId: STARJ
+    intensityScale: 10
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Chest Jump
+    actionId: CJ
+    intensityScale: 8
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Hopscotch
+    actionId: HS
+    intensityScale: 7
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Fast Feet
+    actionId: FF
+    intensityScale: 4
+    bodyPart: 0
+    targetSection: 0
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 50
+    stretchTime: 50
+  - actionName: High Knee Run
+    actionId: HKR
+    intensityScale: 7
+    bodyPart: 0
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: Squat And Kick
+    actionId: SQK
+    intensityScale: 4
+    bodyPart: 1
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: Squat And Jump
+    actionId: SQJ
+    intensityScale: 5
+    bodyPart: 1
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 60
+      highIntensity: 75
+    stretchTime: 50
+  - actionName: '180 squat '
+    actionId: 180S
+    intensityScale: 7
+    bodyPart: 1
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Jumping Jack And Squat
+    actionId: JJS
+    intensityScale: 0
+    bodyPart: 1
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: Side Jump Squat
+    actionId: LSJ
+    intensityScale: 7
+    bodyPart: 1
+    targetSection: 1
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 50
+      mediumIntensity: 75
+      highIntensity: 90
+    stretchTime: 50
+  - actionName: 3 Legged Dog Pose
+    actionId: 3LD
+    intensityScale: 4
+    bodyPart: 0
+    targetSection: 2
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 60
+    stretchTime: 50
+  - actionName: ' Malasana Pose'
+    actionId: MP
+    intensityScale: 3
+    bodyPart: 1
+    targetSection: 2
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50
+  - actionName: Walk Walk
+    actionId: WW
+    intensityScale: 1
+    bodyPart: 0
+    targetSection: 0
+    isStretch: 0
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50
+  - actionName: Arm Circle
+    actionId: AC
+    intensityScale: 1
+    bodyPart: 2
+    targetSection: 0
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50
+  - actionName: Shoulder Roll
+    actionId: SR
+    intensityScale: 1
+    bodyPart: 2
+    targetSection: 0
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50
+  - actionName: Bend And Reach
+    actionId: BAR
+    intensityScale: 2
+    bodyPart: 0
+    targetSection: 0
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50
+  - actionName: Tricep Stretch
+    actionId: TS
+    intensityScale: 1
+    bodyPart: 2
+    targetSection: 0
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50
+  - actionName: Neck Stretch
+    actionId: NS
+    intensityScale: 1
+    bodyPart: 2
+    targetSection: 0
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 30
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Leg Circles
+    actionId: LC
+    intensityScale: 2
+    bodyPart: 1
+    targetSection: 0
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Hip Flexor Stretch
+    actionId: HFS
+    intensityScale: 3
+    bodyPart: 1
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50
+  - actionName: Standing Hamstring Stretch
+    actionId: STHS
+    intensityScale: 3
+    bodyPart: 2
+    targetSection: 0
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 40
+      mediumIntensity: 50
+      highIntensity: 60
+    stretchTime: 50
+  - actionName: Windmill Stretch
+    actionId: WS
+    intensityScale: 2
+    bodyPart: 1
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 30
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Side Stretch
+    actionId: SS
+    intensityScale: 2
+    bodyPart: 2
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 30
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Cross Arm Stretch
+    actionId: CAS
+    intensityScale: 1
+    bodyPart: 2
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 30
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Quad Stretch
+    actionId: QS
+    intensityScale: 5
+    bodyPart: 1
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 30
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Lower BAck Stretch
+    actionId: LBS
+    intensityScale: 4
+    bodyPart: 1
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 30
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Cat And Cow Pose
+    actionId: CCP
+    intensityScale: 2
+    bodyPart: 0
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 30
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Child Pose
+    actionId: CP
+    intensityScale: 2
+    bodyPart: 0
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 30
+      highIntensity: 30
+    stretchTime: 50
+  - actionName: Sleeping Hamstring Stretch
+    actionId: SLHS
+    intensityScale: 4
+    bodyPart: 1
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50
+  - actionName: Aeroplane Pose
+    actionId: AP
+    intensityScale: 3
+    bodyPart: 1
+    targetSection: 2
+    isStretch: 1
+    timePerIntensityLevels:
+      LowIntensity: 30
+      mediumIntensity: 40
+      highIntensity: 40
+    stretchTime: 50

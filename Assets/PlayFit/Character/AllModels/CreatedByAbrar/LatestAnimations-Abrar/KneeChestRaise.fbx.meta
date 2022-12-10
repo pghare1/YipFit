@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: bee4a65d759ca834ca63785b734748f5
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      74: 5862543501114407046
+    second: Armature|Armature|Take 001|BaseLayer
+  - first:
+      74: 6667457057623820749
+    second: Armature|Character1_Ctrl_ChestEndEffector|Take 001|BaseLayer
+  - first:
+      74: 5905426125188511667
+    second: Armature|Character1_Ctrl_ChestOriginEffector|Take 001|BaseLayer
+  - first:
+      74: -5791408966120585030
+    second: Armature|Character1_Ctrl_HeadEffector|Take 001|BaseLayer
+  - first:
+      74: -8509001269711634676
+    second: Armature|Character1_Ctrl_Head|Take 001|BaseLayer
+  - first:
+      74: 2397052868858495340
+    second: Armature|Character1_Ctrl_HipsEffector|Take 001|BaseLayer
+  - first:
+      74: -8984428253318445673
+    second: Armature|Character1_Ctrl_Hips|Take 001|BaseLayer
+  - first:
+      74: -3775020971321130144
+    second: Armature|Character1_Ctrl_LeftAnkleEffector|Take 001|BaseLayer
+  - first:
+      74: -1596293587946032878
+    second: Armature|Character1_Ctrl_LeftArm|Take 001|BaseLayer
+  - first:
+      74: 652264133436405303
+    second: Armature|Character1_Ctrl_LeftElbowEffector|Take 001|BaseLayer
+  - first:
+      74: -7590490155408700391
+    second: Armature|Character1_Ctrl_LeftFoot|Take 001|BaseLayer
+  - first:
+      74: -6684215356647836786
+    second: Armature|Character1_Ctrl_LeftForeArm|Take 001|BaseLayer
+  - first:
+      74: 4543966744596596990
+    second: Armature|Character1_Ctrl_LeftHand|Take 001|BaseLayer
+  - first:
+      74: 5981453768217405115
+    second: Armature|Character1_Ctrl_LeftHipEffector|Take 001|BaseLayer
+  - first:
+      74: 3624395353654668850
+    second: Armature|Character1_Ctrl_LeftKneeEffector|Take 001|BaseLayer
+  - first:
+      74: 7683380300245664490
+    second: Armature|Character1_Ctrl_LeftLeg|Take 001|BaseLayer
+  - first:
+      74: 800386380795710509
+    second: Armature|Character1_Ctrl_LeftShoulderEffector|Take 001|BaseLayer
+  - first:
+      74: 5236087893772292504
+    second: Armature|Character1_Ctrl_LeftUpLeg|Take 001|BaseLayer
+  - first:
+      74: -3423654568444700617
+    second: Armature|Character1_Ctrl_LeftWristEffector|Take 001|BaseLayer
+  - first:
+      74: 8457847649119421789
+    second: Armature|Character1_Ctrl_RightAnkleEffector|Take 001|BaseLayer
+  - first:
+      74: -5197849834100875424
+    second: Armature|Character1_Ctrl_RightArm|Take 001|BaseLayer
+  - first:
+      74: 5546154909687317840
+    second: Armature|Character1_Ctrl_RightElbowEffector|Take 001|BaseLayer
+  - first:
+      74: -3075381928235284126
+    second: Armature|Character1_Ctrl_RightFoot|Take 001|BaseLayer
+  - first:
+      74: 8495169108096232090
+    second: Armature|Character1_Ctrl_RightForeArm|Take 001|BaseLayer
+  - first:
+      74: -4638539516274369985
+    second: Armature|Character1_Ctrl_RightHand|Take 001|BaseLayer
+  - first:
+      74: 6692620434223799322
+    second: Armature|Character1_Ctrl_RightHipEffector|Take 001|BaseLayer
+  - first:
+      74: -6783028403128844792
+    second: Armature|Character1_Ctrl_RightKneeEffector|Take 001|BaseLayer
+  - first:
+      74: 8311592161016151702
+    second: Armature|Character1_Ctrl_RightLeg|Take 001|BaseLayer
+  - first:
+      74: -7399988756865257740
+    second: Armature|Character1_Ctrl_RightShoulderEffector|Take 001|BaseLayer
+  - first:
+      74: 8299267653436349094
+    second: Armature|Character1_Ctrl_RightUpLeg|Take 001|BaseLayer
+  - first:
+      74: 6918282536071144851
+    second: Armature|Character1_Ctrl_RightWristEffector|Take 001|BaseLayer
+  - first:
+      74: 2920204139818191030
+    second: Armature|Character1_Ctrl_Spine|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c16defbace18fe489440bd4529f010e, type: 3}
+  m_Name: PredefinedWorkout_10_low_2 1
+  m_EditorClassIdentifier: 
+  workout:
+  - workoutId: 2
+    age: 22
+    totalTimeFromBackend: 10
+    intesityFromBackend: low
+    actions:
+    - actionId: SMW
+      actionTime: 35
+      isCompleted: 0
+    - actionId: SR
+      actionTime: 35
+      isCompleted: 0
+    - actionId: BAR
+      actionTime: 35
+      isCompleted: 0
+    - actionId: NS
+      actionTime: 35
+      isCompleted: 0
+    - actionId: BB
+      actionTime: 30
+      isCompleted: 0
+    - actionId: FF
+      actionTime: 40
+      isCompleted: 0
+    - actionId: FBJ
+      actionTime: 40
+      isCompleted: 0
+    - actionId: SIDEJ
+      actionTime: 40
+      isCompleted: 0
+    - actionId: BB
+      actionTime: 30
+      isCompleted: 0
+    - actionId: JJ_1
+      actionTime: 40
+      isCompleted: 0
+    - actionId: CURTJ
+      actionTime: 40
+      isCompleted: 0
+    - actionId: JUMP_1
+      actionTime: 40
+      isCompleted: 0
+    - actionId: BB
+      actionTime: 30
+      isCompleted: 0
+    - actionId: SS
+      actionTime: 40
+      isCompleted: 0
+    - actionId: ARMSS
+      actionTime: 40
+      isCompleted: 0
+    - actionId: CAC
+      actionTime: 40
+      isCompleted: 0
+    workoutBreak: 0
+  totalTime: 10
+  intensity: low

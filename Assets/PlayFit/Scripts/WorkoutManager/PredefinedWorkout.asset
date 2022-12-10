@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c16defbace18fe489440bd4529f010e, type: 3}
+  m_Name: PredefinedWorkout
+  m_EditorClassIdentifier: 
+  workout:
+  - workoutId: 1
+    age: 22
+    totalTimeFromBackend: 4
+    intesityFromBackend: low
+    actions:
+    - actionId: JJ_1
+      actionName: Jumping jack
+      actionTime: 60
+      isCompleted: 0
+    - actionId: BB
+      actionName: Break
+      actionTime: 30
+      isCompleted: 0
+    - actionId: JUMP_1
+      actionName: Jumping
+      actionTime: 60
+      isCompleted: 0
+    - actionId: BB
+      actionName: Break
+      actionTime: 30
+      isCompleted: 0
+    - actionId: JJ_1
+      actionName: Jumping jack
+      actionTime: 60
+      isCompleted: 0
+    workoutBreak: 30
+  totalTime: 0
+  intensity: 

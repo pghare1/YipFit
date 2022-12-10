@@ -1,0 +1,191 @@
+{
+  "project_info": {
+    "project_number": "366342054729",
+    "firebase_url": "https://yipli-test-project-default-rtdb.firebaseio.com",
+    "project_id": "yipli-test-project",
+    "storage_bucket": "yipli-test-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366342054729:android:e429ec47fe77ba01f7b098",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANl6BlzT18u_8u8em2b6R_MC1GnXgwYJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366342054729-7el292cf7vv17nf2ls4b1ahlgu10pgs2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yipli.trapped"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366342054729:android:bf54de518abd8540f7b098",
+        "android_client_info": {
+          "package_name": "com.yipli.MultiplayerMayhemDLC"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANl6BlzT18u_8u8em2b6R_MC1GnXgwYJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366342054729-7el292cf7vv17nf2ls4b1ahlgu10pgs2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yipli.trapped"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366342054729:android:e95ccb1b4b109d22f7b098",
+        "android_client_info": {
+          "package_name": "com.yipli.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANl6BlzT18u_8u8em2b6R_MC1GnXgwYJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366342054729-7el292cf7vv17nf2ls4b1ahlgu10pgs2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yipli.trapped"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366342054729:android:f570e81b7862cf93f7b098",
+        "android_client_info": {
+          "package_name": "com.yipli.skateroverdrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANl6BlzT18u_8u8em2b6R_MC1GnXgwYJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366342054729-7el292cf7vv17nf2ls4b1ahlgu10pgs2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yipli.trapped"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366342054729:android:86fb1aadd8e2743cf7b098",
+        "android_client_info": {
+          "package_name": "com.yipli.trapped"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANl6BlzT18u_8u8em2b6R_MC1GnXgwYJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366342054729-00fld87vf7mlnr1lnuleubsb8re1c7jj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366342054729-7el292cf7vv17nf2ls4b1ahlgu10pgs2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yipli.trapped"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

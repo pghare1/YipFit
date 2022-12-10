@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 823867086
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a289fb9c2264ab03e7ce1bf31fe5d4ec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_09.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_02.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_10.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_12.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_04.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_01.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_03.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_07.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_08.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_10.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_06.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_08.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_05.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_04.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_11.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_07.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_01.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_06.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_05.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_03.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_09.mp3
+- Assets/AudioContainer/Non_Performing_Dialogues/m_noaction_02.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_11.mp3
+- Assets/External_audio/Non_Performing_Dialogues/m_noaction_12.mp3
+Dependencies: []

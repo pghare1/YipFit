@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f76c453f07b3644297ca100c570aa83, type: 3}
+  m_Name: AudioFileHolder
+  m_EditorClassIdentifier: 
+  warmUpClips:
+  - {fileID: 8300000, guid: 31012dd9eafa81143981214541c4852e, type: 3}
+  - {fileID: 8300000, guid: d5c7c6a3e53729145b673b9e22189443, type: 3}
+  - {fileID: 8300000, guid: 23ed3c1abfe503d479815c36a0be595c, type: 3}
+  - {fileID: 8300000, guid: 50b7031aa70b34244b49622c397f1874, type: 3}
+  - {fileID: 8300000, guid: 2ba00b5860bd36f4cbd931ae56cf9d94, type: 3}
+  - {fileID: 8300000, guid: 69348a1b35b8422459a2d1fc51f5815a, type: 3}
+  coreClips:
+  - {fileID: 8300000, guid: a1fb95e75f80cf24e81dd7bbdd4d3309, type: 3}
+  - {fileID: 8300000, guid: e15ca371efb0b52499734ba5fba8e306, type: 3}
+  - {fileID: 8300000, guid: 8209e2f2238d5324a99dbe1874824491, type: 3}
+  - {fileID: 8300000, guid: ae8e88493cce3c847b698e881475a9dd, type: 3}
+  - {fileID: 8300000, guid: 2c562e90ea4118a4f9c8d4253790c264, type: 3}
+  cooldownClips:
+  - {fileID: 8300000, guid: 05909d17ad19feb48bed989d32989c8b, type: 3}
+  - {fileID: 8300000, guid: 53c61f0b37fe31f4b892dccd0438e4ba, type: 3}
+  - {fileID: 8300000, guid: 2452e4b0798ca564fb333777c9d64214, type: 3}
+  - {fileID: 8300000, guid: d931bd4ad823fc54c871ecdaceb91767, type: 3}
+  - {fileID: 8300000, guid: 5a6c0568457dbb14ca2fc8064b371cce, type: 3}
+  - {fileID: 8300000, guid: 554c83f9347ebf0478722e654c728691, type: 3}
+  breakClips:
+  - {fileID: 8300000, guid: eae3adaa3db27c04ba0bad8b8e81ee7a, type: 3}
+  mainMenuClips:
+  - {fileID: 8300000, guid: 9e19ccd02af99254796d973695b18c4d, type: 3}
+  resultScreenClips:
+  - {fileID: 8300000, guid: 995b56965ae5d7d4e8fade0e135caee5, type: 3}
+  transitionPanel:
+  - {fileID: 8300000, guid: 2fa7cda7b950fe9419ebe13afba760a8, type: 3}
+  dialoguesClassifications:
+  - audioName: Options Panel Audio 01
+    dialoguesClip: {fileID: 8300000, guid: b0d05750dfc3cd9489759f9b7eac210e, type: 3}
+    dialogueType: 0
+  - audioName: Options Panel Audio 02
+    dialoguesClip: {fileID: 8300000, guid: e4f94dd0ef184d4459bec838b2101bcc, type: 3}
+    dialogueType: 0
+  - audioName: Start Cinematics Audio 01
+    dialoguesClip: {fileID: 8300000, guid: cc3fa9655ab6bb045b8f33810c6b8fec, type: 3}
+    dialogueType: 1
+  - audioName: Start Cinematics Audio 02
+    dialoguesClip: {fileID: 8300000, guid: 0685b299df392e34997553c1da6e6d05, type: 3}
+    dialogueType: 1
+  - audioName: Start Cinematics Audio 03
+    dialoguesClip: {fileID: 8300000, guid: 7fd1a23baac5b7340b3d266f2b0a96a8, type: 3}
+    dialogueType: 1
+  - audioName: Preview Panel Audio 01
+    dialoguesClip: {fileID: 8300000, guid: 1eebf5c66d4f352459a30439393c04e7, type: 3}
+    dialogueType: 3
+  - audioName: Preview Panel Audio 02
+    dialoguesClip: {fileID: 8300000, guid: f4def0e5b804649488ac845ad7f778b3, type: 3}
+    dialogueType: 3
+  - audioName: Result Screen Audio 01
+    dialoguesClip: {fileID: 8300000, guid: afb474b3a1e653640b1983a4cba0a940, type: 3}
+    dialogueType: 2
+  - audioName: Result Screen Audio 02
+    dialoguesClip: {fileID: 8300000, guid: 480bb540992b2674c9fa83cd24e70d65, type: 3}
+    dialogueType: 2

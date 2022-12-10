@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 694865790
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: action_name_sound
+      Dependencies: {}
+    Info_1:
+      Name: action_related_dialogues
+      Dependencies: {}
+    Info_2:
+      Name: non_performing_dialogues
+      Dependencies: {}
+    Info_3:
+      Name: motivational_sound
+      Dependencies: {}
+    Info_4:
+      Name: engaging_audio
+      Dependencies: {}
